@@ -79,7 +79,7 @@ const App = () => {
   return (
     <div className="App">
       {!isUnlocked && (
-        <>
+        <React.Fragment>
           <img className="password-image" src={Patagonia4} alt="Lofoten" />
           {isError && (
             <div className="error-message">
@@ -94,7 +94,7 @@ const App = () => {
             handleKeyPress={handleKeyPress}
             unlockPage={unlockPage}
           />
-        </>
+        </React.Fragment>
       )}
       {isUnlocked && (
         <Router>
