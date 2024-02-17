@@ -12,6 +12,31 @@ import PhotosPage from "./components/PhotosPage/PhotosPage";
 import PhotosSecondaryPage from "./components/PhotosSecondaryPage/PhotosSecondaryPage";
 import Patagonia4 from "./Patagonia4.jpg";
 
+const PasswordLockScreen = ({
+  isError,
+  password,
+  handlePasswordChange,
+  handleKeyPress,
+  unlockPage,
+}) => (
+  <div className="password-form">
+    <div className="password-input">
+      ENTER PASSWORD
+      <input
+        className={isError ? "text-input-error" : "text-input"}
+        type="password"
+        value={password}
+        autoFocus
+        onChange={handlePasswordChange}
+        onKeyDown={handleKeyPress}
+      />
+      <button className="password-button" onClick={unlockPage}>
+        Unlock
+      </button>
+    </div>
+  </div>
+);
+
 const App = () => {
   const [password, setPassword] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(false);
@@ -53,33 +78,25 @@ const App = () => {
 
   return (
     <div className="App">
-      {!isUnlocked ? (
-        <img className="password-image" src={Patagonia4} alt="Lofoten" />
-      ) : null}
-      {isError && (
-        <div className="error-message">
-          <span>Incorrect password</span>
-          <span>Please try again</span>
-        </div>
+      {!isUnlocked && (
+        <>
+          <img className="password-image" src={Patagonia4} alt="Lofoten" />
+          {isError && (
+            <div className="error-message">
+              <span>Incorrect password</span>
+              <span>Please try again</span>
+            </div>
+          )}
+          <PasswordLockScreen
+            isError={isError}
+            password={password}
+            handlePasswordChange={handlePasswordChange}
+            handleKeyPress={handleKeyPress}
+            unlockPage={unlockPage}
+          />
+        </>
       )}
-      {!isUnlocked ? (
-        <div className="password-form">
-          <div className="password-input">
-            ENTER PASSWORD
-            <input
-              className={isError ? "text-input-error" : "text-input"}
-              type="password"
-              value={password}
-              autoFocus
-              onChange={handlePasswordChange}
-              onKeyDown={handleKeyPress}
-            />
-            <button className="password-button" onClick={unlockPage}>
-              Unlock
-            </button>
-          </div>
-        </div>
-      ) : (
+      {isUnlocked && (
         <Router>
           <NavBar />
           <Routes>
