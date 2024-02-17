@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.909b7bec.css",
-    "main.js": "/static/js/main.ae32b5fa.js",
+    "main.js": "/static/js/main.7c8dbc9b.js",
     "static/js/787.f464bc7b.chunk.js": "/static/js/787.f464bc7b.chunk.js",
     "static/media/Patagonia2.jpg": "/static/media/Patagonia2.aec1b2f2d12abf608c9e.jpg",
     "static/media/Patagonia6.jpg": "/static/media/Patagonia6.0cb5431902cfe694caea.jpg",
@@ -43,11 +43,11 @@
     "static/media/Greenland10.jpg": "/static/media/Greenland10.bbcd84c05ca3a3117006.jpg",
     "index.html": "/index.html",
     "main.909b7bec.css.map": "/static/css/main.909b7bec.css.map",
-    "main.ae32b5fa.js.map": "/static/js/main.ae32b5fa.js.map",
+    "main.7c8dbc9b.js.map": "/static/js/main.7c8dbc9b.js.map",
     "787.f464bc7b.chunk.js.map": "/static/js/787.f464bc7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.909b7bec.css",
-    "static/js/main.ae32b5fa.js"
+    "static/js/main.7c8dbc9b.js"
   ]
 }
