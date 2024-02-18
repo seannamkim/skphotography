@@ -121,7 +121,7 @@ export const NavBarWrap = styled.div`
     }
   }
 
-  @media only screen and (width: 393px) and (height: 852px) and (-webkit-device-pixel-ratio: 3) {
+  @media (max-width: 768px) {
     .NavBar {
       display: flex;
       justify-content: space-between;

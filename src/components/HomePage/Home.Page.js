@@ -41,7 +41,7 @@ export const HomePageWrap = styled.div`
     }
   }
 
-  @media only screen and (width: 393px) and (height: 852px) and (-webkit-device-pixel-ratio: 3) {
+  @media (max-width: 768px) {
     .HomePage {
       min-height: 100vh;
       margin-top: 5rem;
