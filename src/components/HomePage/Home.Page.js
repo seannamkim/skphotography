@@ -41,7 +41,7 @@ export const HomePageWrap = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 414px) {
     .HomePage {
       min-height: 100vh;
       margin-top: 5rem;

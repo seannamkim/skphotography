@@ -121,7 +121,7 @@ export const NavBarWrap = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 414px) {
     .NavBar {
       display: flex;
       justify-content: space-between;

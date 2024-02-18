@@ -87,7 +87,7 @@ export const PhotosPageWrap = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 414px) {
     .PhotosPage {
       min-height: 100vh;
       margin-top: 5rem;

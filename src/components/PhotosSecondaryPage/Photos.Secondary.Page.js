@@ -29,7 +29,7 @@ export const PhotosSecondaryPageWrap = styled.div`
       }
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 414px) {
     .PhotosSecondaryPage {
       min-height: 100vh;
       margin-top: 5rem;
