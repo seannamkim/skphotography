@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.909b7bec.css",
-    "main.js": "/static/js/main.d0f1f385.js",
+    "main.css": "/static/css/main.9087e4a7.css",
+    "main.js": "/static/js/main.a671383c.js",
     "static/js/787.f464bc7b.chunk.js": "/static/js/787.f464bc7b.chunk.js",
     "static/media/Patagonia4.jpg": "/static/media/Patagonia4.b5657fc85d25705fc52a.jpg",
     "static/media/Lofoten12.jpg": "/static/media/Lofoten12.6c9327e5053fd372beda.jpg",
@@ -42,12 +42,12 @@
     "static/media/Greenland10.jpg": "/static/media/Greenland10.b9563e177f253e424679.jpg",
     "static/media/Greenland1.jpg": "/static/media/Greenland1.a4cfe6face754e5eee87.jpg",
     "index.html": "/index.html",
-    "main.909b7bec.css.map": "/static/css/main.909b7bec.css.map",
-    "main.d0f1f385.js.map": "/static/js/main.d0f1f385.js.map",
+    "main.9087e4a7.css.map": "/static/css/main.9087e4a7.css.map",
+    "main.a671383c.js.map": "/static/js/main.a671383c.js.map",
     "787.f464bc7b.chunk.js.map": "/static/js/787.f464bc7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.909b7bec.css",
-    "static/js/main.d0f1f385.js"
+    "static/css/main.9087e4a7.css",
+    "static/js/main.a671383c.js"
   ]
 }
