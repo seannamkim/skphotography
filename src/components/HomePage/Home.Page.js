@@ -40,7 +40,7 @@ export const HomePageWrap = styled.div`
       padding: 1rem;
     }
   }
-  
+
   @media (max-width: 768px) {
     .HomePage {
       min-height: 100vh;
@@ -53,7 +53,7 @@ export const HomePageWrap = styled.div`
         transform: translate(-50%, -50%);
         text-decoration: none;
         color: white;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: bolder;
         transition: 350ms ease-in-out;
         letter-spacing: 0.2rem;
