@@ -10,6 +10,7 @@ import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutPage/AboutPage";
 import PhotosPage from "./components/PhotosPage/PhotosPage";
 import PhotosSecondaryPage from "./components/PhotosSecondaryPage/PhotosSecondaryPage";
+import UploadPage from "./components/UploadPage/UploadPage";
 import Patagonia4 from "./Patagonia4.jpg";
 
 const PasswordLockScreen = ({
@@ -133,6 +134,7 @@ const App = () => {
               path="/photos/seoul"
               element={<PhotosSecondaryPage allPhotos={allPhotos} />}
             />
+            <Route exact path="/upload" element={<UploadPage />} />
           </Routes>
         </Router>
       )}
