@@ -34,7 +34,8 @@ export const AboutPageWrap = styled.div`
       }
     }
   }
-  @media (max-width: 784px) {
+
+  @media (max-width: 768px) {
     .AboutPage {
       min-height: 100vh;
       margin-top: 0rem;
