@@ -10,6 +10,15 @@ export const NavBarWrap = styled.div`
     }
   }
 
+  @keyframes slidemenumedia {
+    from {
+      height: 0;
+    }
+    to {
+      height: 9.5rem;
+    }
+  }
+
   @keyframes slideitems {
     0% {
       opacity: 0;
@@ -166,7 +175,7 @@ export const NavBarWrap = styled.div`
           right: 10px;
           background-color: rgb(200, 200, 200);
           z-index: 2;
-          animation: 0.5s slidemenu;
+          animation: 0.5s slidemenumedia;
 
           & > .dropdown-items {
             display: flex;
