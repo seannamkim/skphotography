@@ -122,7 +122,7 @@ export const PhotosPageWrap = styled.div`
             }
 
             & > .photo {
-              width: 20rem;
+              min-width: 20rem;
               height: 20rem;
               cursor: pointer;
               z-index: 0;

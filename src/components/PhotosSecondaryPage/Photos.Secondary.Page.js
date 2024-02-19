@@ -51,8 +51,8 @@ export const PhotosSecondaryPageWrap = styled.div`
 
         & > .photo-secondary {
           margin: 2rem;
-          max-width: 20%;
-          height: min-content;
+          max-width: 50%;
+          height: 20%;
           object-fit: cover;
           cursor: pointer;
         }
