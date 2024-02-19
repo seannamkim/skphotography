@@ -12,8 +12,6 @@ const PhotosSecondaryPage = ({ allPhotos }) => {
 
   const regex = /\/([^/]+)\/([^/]+)/;
   const pathTitle = pathname.match(regex);
-
-  console.log("🚀 ~ PhotosSecondaryPage ~ location:", location);
   const [openPhotoModal, setOpenPhotoModal] = useState(false);
   const handleOpenPhotoModal = (photoData) => {
     setSelectedPhoto(photoData);
