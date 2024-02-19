@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { UploadPageWrap } from "./Upload.Page";
+import Lofoten6 from "./Lofoten6.jpg";
 
 const ImageUploader = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,9 +17,13 @@ const ImageUploader = () => {
   return (
     <UploadPageWrap>
       <div className="UploadPage">
-        UPLOAD
-        <input type="file" accept="image/*" onChange={handleImageChange} />
-        <button onClick={() => handleUpload()}>Upload</button>
+        <h1 className="header">
+          <img className="main-image" src={Lofoten6} alt="Lofoten" />
+        </h1>
+        <div className="upload-inputs">
+          <input className="file-input" type="file" accept="image/*" onChange={handleImageChange} />
+          <button className="upload-button" onClick={() => handleUpload()}>Upload</button>
+        </div>
       </div>
     </UploadPageWrap>
   );
