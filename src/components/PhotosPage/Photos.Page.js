@@ -90,7 +90,7 @@ export const PhotosPageWrap = styled.div`
   @media (max-width: 768px) {
     .PhotosPage {
       min-height: 100vh;
-      margin-top: 5rem;
+      margin-top: 0rem;
 
       & > .all-photos {
         display: flex;

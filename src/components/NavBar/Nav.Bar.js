@@ -129,7 +129,7 @@ export const NavBarWrap = styled.div`
       background-color: rgb(222, 222, 222);
       top: 0;
       width: 100%;
-      height: 5rem;
+      height: 2.5rem;
       z-index: 2;
 
       & > h1 {
@@ -145,7 +145,7 @@ export const NavBarWrap = styled.div`
         display: flex;
         align-items: center;
         margin-right: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
 
         & > .dropdown-arrow-right {
           margin-right: 0.5rem;

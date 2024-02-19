@@ -44,7 +44,7 @@ export const HomePageWrap = styled.div`
   @media (max-width: 768px) {
     .HomePage {
       min-height: 100vh;
-      margin-top: 5rem;
+      margin-top: 0rem;
 
       & > .photo-link {
         position: absolute;

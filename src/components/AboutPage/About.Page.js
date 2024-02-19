@@ -37,7 +37,7 @@ export const AboutPageWrap = styled.div`
   @media (max-width: 784px) {
     .AboutPage {
       min-height: 100vh;
-      margin-top: 5rem;
+      margin-top: 0rem;
 
       & > .main-image {
         position: relative;
