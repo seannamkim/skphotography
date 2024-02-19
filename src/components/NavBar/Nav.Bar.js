@@ -162,8 +162,8 @@ export const NavBarWrap = styled.div`
 
         & > .photos-dropdown {
           position: absolute;
-          top: 50px;
-          right: 25px;
+          top: 30px;
+          right: 10px;
           background-color: rgb(200, 200, 200);
           z-index: 2;
           animation: 0.5s slidemenu;

@@ -32,7 +32,7 @@ export const PhotosSecondaryPageWrap = styled.div`
   @media (max-width: 768px) {
     .PhotosSecondaryPage {
       min-height: 100vh;
-      margin-top: 0rem;
+      margin-top: 3rem;
 
       & > .location-title {
         display: flex;
