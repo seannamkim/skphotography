@@ -172,7 +172,7 @@ export const NavBarWrap = styled.div`
         & > .photos-dropdown {
           position: absolute;
           top: 30px;
-          right: 10px;
+          right: 5px;
           background-color: rgb(200, 200, 200);
           z-index: 2;
           animation: 0.5s slidemenumedia;
@@ -197,7 +197,7 @@ export const NavBarWrap = styled.div`
 
         & > .nav-link {
           text-decoration: none;
-          margin-right: 0.5rem;
+          margin-right: 0.7rem;
           color: black;
           letter-spacing: 0.2rem;
           white-space: nowrap;
@@ -205,7 +205,7 @@ export const NavBarWrap = styled.div`
 
         & > .selected {
           text-decoration: none;
-          margin-right: 0.5rem;
+          margin-right: 0.7rem;
           color: grey;
           letter-spacing: 0.2rem;
           white-space: nowrap;

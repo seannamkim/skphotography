@@ -95,7 +95,7 @@ export const PhotosPageWrap = styled.div`
       & > .all-photos {
         display: flex;
         justify-content: space-between;
-        margin: 6rem 0;
+        margin: 3rem 0;
         flex-wrap: wrap;
 
         & > .photos-column {
