@@ -124,12 +124,12 @@ const NavBar = () => {
             />
           )}
           {dropdownVisible && photosDropdown}
-          <Link
+          {/* <Link
             to="/upload"
             className={selectedTab.includes("upload") ? "selected" : "nav-link"}
           >
             UPLOAD
-          </Link>
+          </Link> */}
         </div>
       </div>
     </NavBarWrap>

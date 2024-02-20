@@ -21,8 +21,20 @@ const ImageUploader = () => {
           <img className="main-image" src={Lofoten6} alt="Lofoten" />
         </h1>
         <div className="upload-inputs">
-          <input className="file-input" type="file" accept="image/*" onChange={handleImageChange} />
-          <button className="upload-button" onClick={() => handleUpload()}>Upload</button>
+          <input
+            className="file-input"
+            type="file"
+            accept="image/*"
+            onChange={handleImageChange}
+          />
+          <img
+            className="uploaded-image"
+            src={!!selectedImage ? URL.createObjectURL(selectedImage) : ""}
+            alt={!!selectedImage ? selectedImage.name : ""}
+          />
+          <button className="upload-button" onClick={() => handleUpload()}>
+            Upload
+          </button>
         </div>
       </div>
     </UploadPageWrap>

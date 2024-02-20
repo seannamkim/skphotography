@@ -34,6 +34,13 @@ export const UploadPageWrap = styled.div`
         align-items: center;
       }
 
+      & > .uploaded-image {
+        margin: 2rem;
+        max-width: 100%;
+        max-height: min-content;
+        object-fit: cover;
+      }
+
       & > .upload-button {
         appearance: button;
         backface-visibility: hidden;
